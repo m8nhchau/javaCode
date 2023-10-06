@@ -1,16 +1,21 @@
-abstract public class SinhVienPoLy {
+public  abstract class SinhVienPoLy {
     protected String hoTen;
-    protected String nganh;
+    protected String loaiNganh;
 
-
-
-    public SinhVienPoLy(String hoTen, String nganh) {
+    public SinhVienPoLy(String hoTen, String loaiNganh) {
         this.hoTen = hoTen;
-        this.nganh = nganh;
-
+        this.loaiNganh = loaiNganh;
     }
 
-    public abstract double getDiem();
+    public String getHoTen() {
+        return hoTen;
+    }
+
+    public String getLoaiNganh() {
+        return loaiNganh;
+    }
+
+    abstract double getDiem();
 
     public String getHocLuc() {
         String hocLuc = null;
@@ -29,12 +34,6 @@ abstract public class SinhVienPoLy {
         return hocLuc;
     }
 
-    public void xuat() {
-        System.out.println("Họ tên: " + hoTen);
-        System.out.println("Ngành: " + nganh);
-        System.out.println("Điểm: " + getDiem());
-        System.out.println("Học lực: " + getHocLuc());
-        System.out.println();
-    }
+
 }
 

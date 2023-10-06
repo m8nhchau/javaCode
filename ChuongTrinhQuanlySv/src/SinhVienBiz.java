@@ -1,20 +1,11 @@
-import java.util.Scanner;
-
 public class SinhVienBiz extends SinhVienPoLy{
-    private double diemMarketing;
-    private double diemSales;
+    protected double diemMarketing;
+    protected double diemSales;
 
-    public SinhVienBiz(String hoTen, String nganh) {
-        super(hoTen, nganh);
-    }
-
-    public void nhapDiem() {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Nhập điểm Marketing: ");
-        diemMarketing = scanner.nextDouble();
-        System.out.print("Nhập điểm Sales: ");
-        diemSales = scanner.nextDouble();
-        scanner.nextLine();
+    public SinhVienBiz(String hoTen, String loaiNganh, double diemMarketing, double diemSales) {
+        super(hoTen, loaiNganh);
+        this.diemMarketing = diemMarketing;
+        this.diemSales = diemSales;
     }
 
     public double getDiem() {
