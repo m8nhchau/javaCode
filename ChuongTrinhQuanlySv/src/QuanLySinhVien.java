@@ -4,7 +4,7 @@ import java.util.Comparator;
 import java.util.Scanner;
 
 public class QuanLySinhVien {
-    ArrayList<SinhVienPoLy> list = new ArrayList<>();
+    List<SinhVienPoLy> list = new ArrayList<>();
     public void nhap() {
         do {
             Scanner scanner = new Scanner(System.in);
