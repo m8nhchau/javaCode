@@ -1,7 +1,6 @@
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.Scanner;
+import java.util.*;
+import java.util.stream.Collectors;
+
 public class QuanLyNhanVien {
     ArrayList<NhanVien> list = new ArrayList<>();
 
@@ -150,6 +149,13 @@ public class QuanLyNhanVien {
             }
         };
         Collections.sort(list,comp);
+        
+        //todo
+//        Collections.sort(list, (o1, o2) -> (int) (o2.getLuongNhan() - o1.getLuongNhan()));
+//        Collections.sort(list, Comparator.comparing(NhanVien::getLuongNhan));
+//        List<NhanVien> sortedList = list.stream()
+//                .sorted(Comparator.comparing(NhanVien::getLuongNhan))
+//                .collect(Collectors.toList());
         xuat();
     }
     public void xuat5NV(){
