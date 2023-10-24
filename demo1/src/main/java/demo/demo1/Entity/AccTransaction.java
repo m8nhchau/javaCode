@@ -1,13 +1,13 @@
 package demo.demo1.Entity;
 
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import jakarta.persistence.*;
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
 
+import javax.persistence.*;
 import java.util.Date;
 
 @Entity
@@ -34,17 +34,17 @@ public class AccTransaction {
     @Column(name="TXN_TYPE_CD")
     private String txnTypeCd;
 
-    @JsonIgnore
+    @JsonBackReference
     @ManyToOne
     @JoinColumn(name = "ACCOUNT_ID")
     private Account account;
 
-    @JsonIgnore
+    @JsonBackReference
     @ManyToOne
     @JoinColumn(name = "EXECUTION_BRANCH_ID")
     private Branch branch;
 
-    @JsonIgnore
+    @JsonBackReference
     @ManyToOne
     @JoinColumn(name = "TELLER_EMP_ID")
     private Employee employee;

@@ -1,11 +1,10 @@
 package demo.demo1.Entity;
 
 
-import jakarta.persistence.*;
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
+import javax.persistence.*;
 import java.util.List;
 
 @Entity
@@ -19,19 +18,19 @@ public class Branch {
     @Column(name = "BRANCH_ID")
     private Integer branchId;
 
-    @Column(name="ADDRESS")
+    @Column(name = "ADDRESS")
     private String address;
 
-    @Column(name="CITY")
+    @Column(name = "CITY")
     private String city;
 
-    @Column(name="NAME")
+    @Column(name = "NAME")
     private String name;
 
-    @Column(name="STATE")
+    @Column(name = "STATE")
     private String state;
 
-    @Column(name="ZIP_CODE")
+    @Column(name = "ZIP_CODE")
     private String zipCode;
 
     @OneToMany(mappedBy = "branch", fetch = FetchType.LAZY)

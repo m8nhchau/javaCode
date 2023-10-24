@@ -1,8 +1,7 @@
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class QuanLyNhanVien {
-    ArrayList<NhanVien> list = new ArrayList<>();
+    List<NhanVien> list = new ArrayList<>();
 
     public void nhap(){//nhap danh sach nhan vien
         do{
@@ -149,7 +148,7 @@ public class QuanLyNhanVien {
             }
         };
         Collections.sort(list,comp);
-        
+
         //todo
 //        Collections.sort(list, (o1, o2) -> (int) (o2.getLuongNhan() - o1.getLuongNhan()));
 //        Collections.sort(list, Comparator.comparing(NhanVien::getLuongNhan));

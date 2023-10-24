@@ -1,11 +1,10 @@
 package demo.demo1.Entity;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
-import jakarta.persistence.*;
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
+import javax.persistence.*;
 import java.util.Date;
 import java.util.List;
 
@@ -45,17 +44,20 @@ public class Account {
     private Product product;
 
     @ManyToOne
-   @JoinColumn(name = "CUST_ID")
-   private Customer customer;
+    @JsonBackReference
+    @JoinColumn(name = "CUST_ID")
+    private Customer customer;
 
     @OneToMany(mappedBy = "account", fetch = FetchType.LAZY)
     List<AccTransaction> accTran;
 
     @ManyToOne
-    @JoinColumn(name ="OPEN_BRANCH_ID")
+    @JsonBackReference
+    @JoinColumn(name = "OPEN_BRANCH_ID")
     private Branch branch;
 
     @ManyToOne
+    @JsonBackReference
     @JoinColumn(name = "OPEN_EMP_ID")
     private Employee employee;
 

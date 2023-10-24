@@ -2,11 +2,10 @@ package demo.demo1.Entity;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import jakarta.persistence.*;
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
+import javax.persistence.*;
 import java.util.Date;
 import java.util.List;
 
@@ -14,24 +13,23 @@ import java.util.List;
 //@Data
 @Getter
 @Setter
-@Table(name= "product")
+@Table(name = "product")
 public class Product {
     @Id
-    @Column(name="PRODUCT_CD")
+    @Column(name = "PRODUCT_CD")
     private String productCd;
 
-    @Column(name="DATE_OFFERED")
+    @Column(name = "DATE_OFFERED")
     private Date dataOffered;
-    @Column(name="DATE_RETIRED")
+    @Column(name = "DATE_RETIRED")
     private Date dateRetired;
-    @Column(name="NAME")
+    @Column(name = "NAME")
     private String name;
 
-
-    @OneToMany(mappedBy="product", fetch = FetchType.LAZY)
+    @OneToMany(mappedBy = "product", fetch = FetchType.LAZY)
     List<Account> accounts;
 
-    @JsonIgnore
+    @JsonBackReference
     @ManyToOne
     @JoinColumn(name = "PRODUCT_TYPE_CD")
     private ProductType productType;

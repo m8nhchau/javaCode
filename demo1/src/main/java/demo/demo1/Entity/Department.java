@@ -1,10 +1,9 @@
 package demo.demo1.Entity;
 
-import jakarta.persistence.*;
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
+import javax.persistence.*;
 import java.util.List;
 
 @Entity
@@ -15,9 +14,9 @@ import java.util.List;
 public class Department {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name="DEPT_ID")
+    @Column(name = "DEPT_ID")
     private Integer deptId;
-    @Column(name="NAME")
+    @Column(name = "NAME")
     private String name;
 
     @OneToMany(mappedBy = "department", fetch = FetchType.LAZY)

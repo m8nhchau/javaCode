@@ -1,13 +1,13 @@
 package demo.demo1.Entity;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import jakarta.persistence.*;
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.util.List;
+import javax.persistence.*;
 import java.util.Date;
+import java.util.List;
 
 @Entity
 //@Data
@@ -41,12 +41,12 @@ public class Employee {
     @OneToMany(mappedBy = "employee", fetch = FetchType.LAZY)
     List<Account> accounts;
 
-    @JsonIgnore
+    @JsonBackReference
     @ManyToOne
     @JoinColumn(name = "DEPT_ID")
     private Department department;
 
-    @JsonIgnore
+    @JsonBackReference
     @ManyToOne
     @JoinColumn(name = "ASSIGNED_BRANCH_ID")
     private Branch branch;
