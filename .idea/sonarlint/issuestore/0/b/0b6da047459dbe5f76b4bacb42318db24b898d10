@@ -1,21 +1,21 @@
 
-C
-java:S16044"(Make this anonymous inner class a lambda(Á«²Œøÿÿÿÿ
-@	java:S106"+Replace this use of System.out by a logger.(ùª¶Ü
-E	java:S106"+Replace this use of System.out by a logger.(éÆâ·ÿÿÿÿÿ
-E	java:S106"+Replace this use of System.out by a logger.(“›ˆÈþÿÿÿÿ
-@	java:S106"+Replace this use of System.out by a logger.(„óšÿ
-@	java:S106"+Replace this use of System.out by a logger.(ûìÇª
-E	java:S106"+Replace this use of System.out by a logger.(¦ÎÔìûÿÿÿÿ
-E	java:S106"+Replace this use of System.out by a logger.(¾öü­ýÿÿÿÿ
-E	java:S106)"+Replace this use of System.out by a logger.(©•î«úÿÿÿÿ
-E	java:S106/"+Replace this use of System.out by a logger.(©•î«úÿÿÿÿ
-E	java:S106<"+Replace this use of System.out by a logger.(ïè½ýÿÿÿÿ
-@	java:S106D"+Replace this use of System.out by a logger.(…ŠÈ’
-@	java:S106E"+Replace this use of System.out by a logger.(–ËÜž
-E	java:S106F"+Replace this use of System.out by a logger.(ÎÞ´·üÿÿÿÿ
-E	java:S106G"+Replace this use of System.out by a logger.(‘äƒ°üÿÿÿÿ
-E	java:S106H"+Replace this use of System.out by a logger.(Æ‰äÍüÿÿÿÿ
-E	java:S106I"+Replace this use of System.out by a logger.(ÎŠþùüÿÿÿÿ
-E	java:S106J"+Replace this use of System.out by a logger.(´ŽÑäüÿÿÿÿ
-E	java:S106^"+Replace this use of System.out by a logger.(ñÇ¤µþÿÿÿÿ
+J
+java:S16044"(Make this anonymous inner class a lambda(Á«²Œøÿÿÿÿ8ÊÈêýµ1
+G	java:S106"+Replace this use of System.out by a logger.(ùª¶Ü8ÀÌêýµ1
+L	java:S106"+Replace this use of System.out by a logger.(éÆâ·ÿÿÿÿÿ8ÆÌêýµ1
+L	java:S106"+Replace this use of System.out by a logger.(“›ˆÈþÿÿÿÿ8ÎÌêýµ1
+G	java:S106"+Replace this use of System.out by a logger.(„óšÿ8ÐÌêýµ1
+G	java:S106"+Replace this use of System.out by a logger.(ûìÇª8ÔÌêýµ1
+L	java:S106"+Replace this use of System.out by a logger.(¦ÎÔìûÿÿÿÿ8ÛÌêýµ1
+L	java:S106"+Replace this use of System.out by a logger.(¾öü­ýÿÿÿÿ8ÝÌêýµ1
+L	java:S106)"+Replace this use of System.out by a logger.(©•î«úÿÿÿÿ8äÌêýµ1
+L	java:S106/"+Replace this use of System.out by a logger.(©•î«úÿÿÿÿ8èÌêýµ1
+L	java:S106<"+Replace this use of System.out by a logger.(ïè½ýÿÿÿÿ8ïÌêýµ1
+G	java:S106D"+Replace this use of System.out by a logger.(…ŠÈ’8õÌêýµ1
+G	java:S106E"+Replace this use of System.out by a logger.(–ËÜž8öÌêýµ1
+L	java:S106F"+Replace this use of System.out by a logger.(ÎÞ´·üÿÿÿÿ8øÌêýµ1
+L	java:S106G"+Replace this use of System.out by a logger.(‘äƒ°üÿÿÿÿ8ùÌêýµ1
+L	java:S106H"+Replace this use of System.out by a logger.(Æ‰äÍüÿÿÿÿ8úÌêýµ1
+L	java:S106I"+Replace this use of System.out by a logger.(ÎŠþùüÿÿÿÿ8ûÌêýµ1
+L	java:S106J"+Replace this use of System.out by a logger.(´ŽÑäüÿÿÿÿ8üÌêýµ1
+L	java:S106^"+Replace this use of System.out by a logger.(ñÇ¤µþÿÿÿÿ8€Íêýµ1

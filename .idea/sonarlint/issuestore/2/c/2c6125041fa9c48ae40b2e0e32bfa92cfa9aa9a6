@@ -1,0 +1,7 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(«Ñåä8·Ñ†¶1
+]	java:S125"<This block of commented-out lines of code should be removed.(˜Á¡øúÿÿÿÿ8¢·Ñ†¶1
+X	java:S125"<This block of commented-out lines of code should be removed.(©Œª8¢·Ñ†¶1
+X	java:S125"<This block of commented-out lines of code should be removed.(¬“¹Ş8¥·Ñ†¶1
+O
+java:S1068"-Remove this unused "customers" private field.(ıÒÍ…ûÿÿÿÿ8§·Ñ†¶1

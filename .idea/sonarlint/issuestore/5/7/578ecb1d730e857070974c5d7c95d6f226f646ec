@@ -1,0 +1,11 @@
+
+]	java:S125
+"<This block of commented-out lines of code should be removed.(¯Íø¼úÿÿÿÿ8º‹Î¥¶1
+J
+java:S1172"-Remove this unused method parameter "custId".(ò¥˜8õˆ¢¦¶1
+o
+java:S1128"RRemove this unused import 'org.springframework.data.jpa.repository.JpaRepository'.(À™‡“8öˆ¢¦¶1
+ƒ
+java:S1128"aRemove this unused import 'org.springframework.data.jpa.repository.config.EnableJpaRepositories'.(²œ˜üÿÿÿÿ8öˆ¢¦¶1
+Q
+java:S1128"/Remove this unused import 'java.util.Optional'.(¨˜ëİüÿÿÿÿ8öˆ¢¦¶1
