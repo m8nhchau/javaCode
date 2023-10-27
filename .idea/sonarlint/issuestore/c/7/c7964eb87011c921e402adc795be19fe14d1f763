@@ -1,0 +1,8 @@
+
+ˆ
+java:S1488"fImmediately return this expression instead of assigning it to the temporary variable "employeeIdDtos".(êêÅÕÿÿÿÿÿ8Ò¥ …·1
+Z
+java:S1854"=Remove this useless assignment to local variable "employees".(Ö€³û8ß¥ …·1
+K
+java:S1481".Remove this unused "employees" local variable.(Ö€³û8á¥ …·1
+]	java:S125"<This block of commented-out lines of code should be removed.(Å…‰ýûÿÿÿÿ8â¥ …·1

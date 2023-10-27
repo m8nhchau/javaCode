@@ -34,9 +34,6 @@ public class Employee {
     @Column(name="TITLE")
     private String title;
 
-    @Column(name="SUPERIOR_EMP_ID")
-    private Integer superiorEmpId;
-
     @OneToMany(mappedBy = "employee", fetch = FetchType.LAZY)
     List<Account> accounts;
 
@@ -52,4 +49,10 @@ public class Employee {
 
     @OneToMany(mappedBy = "employee", fetch = FetchType.LAZY)
     List<AccTransaction> accTrans;
+
+    @OneToOne
+    @JsonBackReference
+    @JoinColumn(name = "SUPERIOR_EMP_ID", referencedColumnName = "EMP_ID")
+    private Employee superiorEmp;
+
 }

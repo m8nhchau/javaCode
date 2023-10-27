@@ -1,0 +1,61 @@
+
+¶
+java:S1192'"šDefine a constant instead of duplicating this literal "Ma nhan vien: %s |  Ho & ten: %s | luong thang: %2f| Loai nhan vien: %s| luong nhan: %2f
+" 4 times.(¯ºÄˆıÿÿÿÿ
+?
+java:S1604…"(Make this anonymous inner class a lambda(Ä¯
+?
+java:S1604"(Make this anonymous inner class a lambda(Ä¯
+C
+java:S54116"(Use a primitive boolean expression here.(â¸Ššûÿÿÿÿ
+C
+java:S5411G"(Use a primitive boolean expression here.(â¸Ššûÿÿÿÿ
+E	java:S106	"+Replace this use of System.out by a logger.(éóØÙúÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(¤ Ş«
+@	java:S106"+Replace this use of System.out by a logger.(ˆÌê
+E	java:S106"+Replace this use of System.out by a logger.(µºÖòÿÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(±¡Âşÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(ò¨íãùÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(°³Ñü
+E	java:S106!"+Replace this use of System.out by a logger.(ÈœÑ·ùÿÿÿÿ
+E	java:S106'"+Replace this use of System.out by a logger.(¯ºÄˆıÿÿÿÿ
+@	java:S106,"+Replace this use of System.out by a logger.(´»í
+E	java:S1061"+Replace this use of System.out by a logger.(¯ºÄˆıÿÿÿÿ
+B
+java:S11256"'Remove the unnecessary boolean literal.(â¸Ššûÿÿÿÿ
+?	java:S1067"+Replace this use of System.out by a logger.(Ï‹à5
+@	java:S106<"+Replace this use of System.out by a logger.(‹Á»‚
+@	java:S106C"+Replace this use of System.out by a logger.(¢›Ù
+B
+java:S1125G"'Remove the unnecessary boolean literal.(â¸Ššûÿÿÿÿ
+E	java:S106H"+Replace this use of System.out by a logger.(š²ªÀùÿÿÿÿ
+E	java:S106M"+Replace this use of System.out by a logger.(è’¹˜úÿÿÿÿ
+E	java:S106Z"+Replace this use of System.out by a logger.(éóØÙúÿÿÿÿ
+@	java:S106\"+Replace this use of System.out by a logger.(¤ Ş«
+@	java:S106^"+Replace this use of System.out by a logger.(ˆÌê
+E	java:S106c"+Replace this use of System.out by a logger.(±¡Âşÿÿÿÿ
+E	java:S106j"+Replace this use of System.out by a logger.(ò¨íãùÿÿÿÿ
+@	java:S106l"+Replace this use of System.out by a logger.(°³Ñü
+@	java:S106q"+Replace this use of System.out by a logger.(êöøó
+E	java:S106s"+Replace this use of System.out by a logger.(š²ªÀùÿÿÿÿ
+@	java:S106x"+Replace this use of System.out by a logger.(‹ôü—
+@	java:S106y"+Replace this use of System.out by a logger.(İÂô
+@	java:S106{"+Replace this use of System.out by a logger.(œ¯û
+E	java:S106"+Replace this use of System.out by a logger.(¯ºÄˆıÿÿÿÿ
+R	java:S125™"<This block of commented-out lines of code should be removed.(È›Ñ“
+N
+java:S1135˜"2Complete the task associated to this TODO comment.(ñ•Ôøÿÿÿÿ
+F	java:S106£"+Replace this use of System.out by a logger.(ê§ ‹ıÿÿÿÿ
+A	java:S106«"+Replace this use of System.out by a logger.(…ŠÈ’
+A	java:S106¬"+Replace this use of System.out by a logger.(ëĞùï
+F	java:S106­"+Replace this use of System.out by a logger.(ìøÑáşÿÿÿÿ
+F	java:S106®"+Replace this use of System.out by a logger.(™™¥½ûÿÿÿÿ
+F	java:S106¯"+Replace this use of System.out by a logger.(Ü™ò¯ûÿÿÿÿ
+A	java:S106°"+Replace this use of System.out by a logger.(Ô›Éº
+A	java:S106±"+Replace this use of System.out by a logger.(È¿‰
+F	java:S106²"+Replace this use of System.out by a logger.(â‚ªèøÿÿÿÿ
+A	java:S106³"+Replace this use of System.out by a logger.(›ıõ½
+F	java:S106´"+Replace this use of System.out by a logger.(ÉÆ“úÿÿÿÿ
+A	java:S106µ"+Replace this use of System.out by a logger.(ı¢ 
+F	java:S106¶"+Replace this use of System.out by a logger.(´Ñäüÿÿÿÿ
+F	java:S106Ù"+Replace this use of System.out by a logger.(ñÇ¤µşÿÿÿÿ
