@@ -1,18 +1,0 @@
-
-]	java:S125"<This block of commented-out lines of code should be removed.(úùéÈùÿÿÿÿ8Ú•¨„·1
-]	java:S125*"<This block of commented-out lines of code should be removed.(ç˜–Åÿÿÿÿÿ8„ò‚´¶1
-]
-java:S1128";Remove this unused import 'demo.demo1.dto.FindCustomerDto'.(ë·Ïøÿÿÿÿ8Ü•¨„·1
-f
-java:S1128"DRemove this unused import 'org.springframework.data.domain.Example'.(³˜œÍüÿÿÿÿ8Ü•¨„·1
-c
-java:S1128	"ARemove this unused import 'org.springframework.data.domain.Page'.(˜âüÿÿÿÿ8Ü•¨„·1
-g
-java:S1128
-"ERemove this unused import 'org.springframework.data.domain.Pageable'.(‡ë‚Öıÿÿÿÿ8Ü•¨„·1
-c
-java:S1128"ARemove this unused import 'org.springframework.data.domain.Sort'.(ëÿ€ëøÿÿÿÿ8Ü•¨„·1
-f
-java:S1128"DRemove this unused import 'org.springframework.http.ResponseEntity'.(¶¯ø¦úÿÿÿÿ8Ü•¨„·1
-Q
-java:S1128"/Remove this unused import 'java.util.Optional'.(¨˜ëİüÿÿÿÿ8İ•¨„·1

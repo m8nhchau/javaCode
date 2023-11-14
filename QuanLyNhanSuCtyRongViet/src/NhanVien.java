@@ -32,6 +32,7 @@ public abstract class NhanVien {
 
         this.hoTen = hoTen;
     }
+
     public double getLuongThang() {
 
         return luongThang;
@@ -41,6 +42,7 @@ public abstract class NhanVien {
 
         this.luongThang = luongThang;
     }
+
     public String getLoaiNV() {
 
         return loaiNV;
@@ -50,8 +52,11 @@ public abstract class NhanVien {
 
         this.loaiNV = loaiNV;
     }
+
     abstract double getLuong(); // luong truoc thue = luong hang thang + luong duoc them
+
     abstract double getLuongNhan();// luong nhan (luong sau thue) = luong truoc thue - thue
+
     public double getThue() {
         double luong = getLuong();
         double thue = 0;

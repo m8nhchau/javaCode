@@ -1,4 +1,4 @@
-public  abstract class SinhVienPoLy {
+public abstract class SinhVienPoLy {
     protected String hoTen;
     protected String loaiNganh;
 

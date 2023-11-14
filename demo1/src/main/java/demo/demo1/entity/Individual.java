@@ -15,8 +15,8 @@ import java.util.Date;
 @Table(name = "individual")
 public class Individual {
     @Id
-    @Column(name = "CUST_ID")
-    private Integer custId;
+    @Column(name = "ID")
+    private Integer id;
 
     @Column(name = "BIRTH_DATE")
     private Date birthDate;
@@ -27,9 +27,9 @@ public class Individual {
     @Column(name = "LAST_NAME")
     private String lastName;
 
+    @OneToOne
     @JsonBackReference
-    @ManyToOne
-    @JoinColumn(name = "customer_cust_id")
+    @JoinColumn(name = "CUST_ID")
     private Customer customer;
 
 }

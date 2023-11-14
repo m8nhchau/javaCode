@@ -1,6 +1,7 @@
 package demo.demo1.entity;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import demo.demo1.dto.responseDTO.EmployeeResponseDto;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -16,22 +17,22 @@ import java.util.List;
 public class Employee {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name="EMP_ID")
+    @Column(name = "EMP_ID")
     private Integer empId;
 
-    @Column(name="END_DATE")
+    @Column(name = "END_DATE")
     private Date endDate;
 
-    @Column(name="FIRST_NAME")
+    @Column(name = "FIRST_NAME")
     private String firstName;
 
-    @Column(name="LAST_NAME")
+    @Column(name = "LAST_NAME")
     private String lastName;
 
-    @Column(name="START_DATE")
+    @Column(name = "START_DATE")
     private Date startDate;
 
-    @Column(name="TITLE")
+    @Column(name = "TITLE")
     private String title;
 
     @OneToMany(mappedBy = "employee", fetch = FetchType.LAZY)

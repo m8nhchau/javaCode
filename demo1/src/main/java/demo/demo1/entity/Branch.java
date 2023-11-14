@@ -25,7 +25,7 @@ public class Branch {
     private String city;
 
     @Column(name = "NAME")
-    private String name;
+    private String branchName;
 
     @Column(name = "STATE")
     private String state;
@@ -37,7 +37,7 @@ public class Branch {
     List<Account> accounts;
 
     @OneToMany(mappedBy = "branch", fetch = FetchType.LAZY)
-    List<Employee> employees;
+    List<Employee> employee;
 
     @OneToMany(mappedBy = "branch", fetch = FetchType.LAZY)
     List<AccTransaction> accTrans;

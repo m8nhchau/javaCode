@@ -21,16 +21,16 @@ public class AccTransaction {
     @Column(name = "TXN_ID")
     private Long txnId;
 
-    @Column(name ="AMOUNT")
+    @Column(name = "AMOUNT")
     private Double amount;
 
-    @Column(name=" FUNDS_AVAIL_DATE")
+    @Column(name = " FUNDS_AVAIL_DATE")
     private Date fundsAvailDate;
 
-    @Column(name="TXN_DATE")
+    @Column(name = "TXN_DATE")
     private Date txnDate;
 
-    @Column(name="TXN_TYPE_CD")
+    @Column(name = "TXN_TYPE_CD")
     private String txnTypeCd;
 
     @JsonBackReference

@@ -3,7 +3,7 @@ public class SinhVienIT extends SinhVienPoLy {
     protected double diemHTML;
     protected double diemCSS;
 
-    public SinhVienIT(String hoTen, String loaiNganh, double diemJava, double diemCSS, double diemHTML){
+    public SinhVienIT(String hoTen, String loaiNganh, double diemJava, double diemCSS, double diemHTML) {
         super(hoTen, loaiNganh);
         this.diemJava = diemJava;
         this.diemCSS = diemCSS;

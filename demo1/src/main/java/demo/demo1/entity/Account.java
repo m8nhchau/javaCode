@@ -21,7 +21,7 @@ public class Account {
     private Integer accountID;
 
     @Column(name = "AVAIL_BALANCE")
-    private Double availBlance;
+    private Double availBalance;
 
     @Column(name = "CLOSE_DATE")
     private Date closeDate;
@@ -33,7 +33,7 @@ public class Account {
     private Date openDate;
 
     @Column(name = "PENDING_BALANCE")
-    private Float pendingBalance;
+    private Double pendingBalance;
 
     @Column(name = "STATUS")
     private String status;

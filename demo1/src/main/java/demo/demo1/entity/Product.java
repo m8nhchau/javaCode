@@ -23,7 +23,7 @@ public class Product {
     @Column(name = "DATE_RETIRED")
     private Date dateRetired;
     @Column(name = "NAME")
-    private String name;
+    private String productName;
 
     @OneToMany(mappedBy = "product", fetch = FetchType.LAZY)
     List<Account> accounts;

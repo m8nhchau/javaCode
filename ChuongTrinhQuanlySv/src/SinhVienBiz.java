@@ -1,4 +1,4 @@
-public class SinhVienBiz extends SinhVienPoLy{
+public class SinhVienBiz extends SinhVienPoLy {
     protected double diemMarketing;
     protected double diemSales;
 
