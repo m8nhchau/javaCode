@@ -26,15 +26,12 @@ public class Order {
     @Column(name = "STATUS")
     private String status;
 
-    @ManyToOne
-    @JsonBackReference
-    @JoinColumn(name = "PRODUCT_CD")
-    private Products products;
+//    @ManyToOne
+//    @JsonBackReference
+//    @JoinColumn(name = "PRODUCT_CD")
+//    private Products products;
 
-    @OneToMany(mappedBy = "order", fetch = FetchType.LAZY)
-    List<Customer> customerList;
-
-    @ManyToOne
-    @JoinColumn(name = "READY_ORDER_ID")
-    private OrderDetails orderDetailsList;
+//    @ManyToOne
+//    @JoinColumn(name = "READY_ORDER_ID")
+//    private OrderDetails orderDetailsList;
 }

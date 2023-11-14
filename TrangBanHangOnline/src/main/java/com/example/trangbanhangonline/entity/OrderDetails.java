@@ -31,7 +31,4 @@ public class OrderDetails {
     @Column(name = "LAST_NAME")
     private String lastName;
 
-    @OneToMany(mappedBy = "order", fetch = FetchType.LAZY)
-    List<Order> orders;
-
 }

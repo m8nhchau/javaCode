@@ -3,7 +3,10 @@ package com.example.trangbanhangonline.entity;
 import lombok.Getter;
 import lombok.Setter;
 
-import javax.persistence.*;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 import java.util.Date;
 
 @Entity
@@ -24,11 +27,4 @@ public class Products {
     @Column(name = "CREATE_DATE")
     private Date createDate;
 
-    @ManyToOne
-    @JoinColumn(name = "ADMIN_ID")
-    private Admin admin;
-
-    @ManyToOne
-    @JoinColumn(name = "CUSTOMER_ID")
-    private Customer customer;
 }

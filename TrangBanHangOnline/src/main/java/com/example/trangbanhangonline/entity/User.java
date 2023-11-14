@@ -3,15 +3,17 @@ package com.example.trangbanhangonline.entity;
 import lombok.Getter;
 import lombok.Setter;
 
-import javax.persistence.*;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 import java.util.Date;
-import java.util.List;
 
 @Entity
 @Getter
 @Setter
-@Table(name = "users")
-public class Users {
+@Table(name = "user")
+public class User {
     @Id
     @Column(name = "USER_ID")
     private Integer userID;
@@ -30,17 +32,5 @@ public class Users {
 
     @Column(name = "ADDRESS")
     private String address;
-
-    @OneToOne
-    @JoinColumn(name =  "USER_ID")
-    private Admin admin;
-
-    @OneToOne
-    @JoinColumn(name =  "USER_ID")
-    private Customer customer;
-
-    @OneToMany(mappedBy = "account", fetch = FetchType.LAZY)
-    List<Session> sessionList;
-
 
 }

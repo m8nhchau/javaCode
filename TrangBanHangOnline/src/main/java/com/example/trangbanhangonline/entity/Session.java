@@ -26,13 +26,5 @@ public class Session {
 
     @Column(name = "EXPIRED_DATE")
     private Date expiredDate;
-//    @ManyToOne
-//    @JsonBackReference
-//    @JoinColumn(name = "USER_ID")
-//    private Users users;
-//
-//    @ManyToOne
-//    @JsonBackReference
-//    @JoinColumn(name = "ADMIN_ID")
-//    private Admin admin;
+
 }
