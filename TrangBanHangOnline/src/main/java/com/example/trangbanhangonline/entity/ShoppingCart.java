@@ -1,33 +1,33 @@
 package com.example.trangbanhangonline.entity;
 
-
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
 import java.util.Date;
+import java.util.List;
 
 
 @Entity
 @Getter
 @Setter
-@Table(name = "session")
-public class Session {
+@Table(name ="shoppingCart")
+public class ShoppingCart {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "SESSION_ID")
-    private Integer sessionId;
+    @Column(name = "CART_ID")
+    private Integer cartId;
 
-    @Column(name = "SESSION_CODE", unique = true)
-    private String sessionCode;
+    @Column(name = "CREATE_DATE")
+    private Date createDate;
 
-    @Column(name = "EXPIRED_DATE")
-    private Date expiredDate;
+    @JsonBackReference
+    @OneToMany(mappedBy = "shoppingCart", cascade = CascadeType.ALL)
+    private List<ShoppingCartDetails> shoppingCartDetails;
 
     @OneToOne
-    @JsonBackReference
     @JoinColumn(name = "USER_ID")
     private User user;
-
 }

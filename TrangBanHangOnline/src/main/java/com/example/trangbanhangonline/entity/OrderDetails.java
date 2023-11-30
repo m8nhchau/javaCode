@@ -5,30 +5,30 @@ import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
-import java.util.List;
+
 
 @Entity
 @Getter
 @Setter
-@Table(name ="order_details")
+@Table(name ="orderDetails")
 public class OrderDetails {
     @Id
-    @Column(name = "READY_ORDER_ID")
-    private Integer readyOrderId;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "ORDER_DETAILS_ID")
+    private Integer orderDetailsId;
 
-    @Column(name = "AMOUNT")
-    private Integer amount;
+    @Column(name = "QUANTITY_ORDERS")
+    private Integer quantityOrders;
 
-    @Column(name = "TOTAL_PRICE")
-    private Double totalPrice;
+    @Column(name = "PRICE_DETAILS")
+    private Double priceDetails;
 
-    @Column(name = "PRODUCT_ID")
-    private String productId;
+    @OneToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "PRODUCT_ID", referencedColumnName = "PRODUCT_ID")
+    private Product product;
 
-    @Column(name = "FIRST_NAME")
-    private String firstName;
-
-    @Column(name = "LAST_NAME")
-    private String lastName;
-
+    @JsonBackReference
+    @ManyToOne
+    @JoinColumn(name = "ORDER_ID")
+    private Orders orders;
 }
