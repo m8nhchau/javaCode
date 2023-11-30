@@ -17,7 +17,6 @@ public class Product {
     @Id
     @Column(name = "PRODUCT_CD")
     private String productCd;
-
     @Column(name = "DATE_OFFERED")
     private Date dataOffered;
     @Column(name = "DATE_RETIRED")

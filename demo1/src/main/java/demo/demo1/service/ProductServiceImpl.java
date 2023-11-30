@@ -29,7 +29,6 @@ public class ProductServiceImpl implements ProductService {
     @Override
     public ProductResponseDTO getCreateProduct(ProductRequestDTO productRequestDTO) {
 
-
         Product productNew = productRequestMapper.toEntityProduct(productRequestDTO);
 
         List<Product> listProduct = productRepository.findByProductName(productRequestDTO.getProductName());
@@ -42,7 +41,6 @@ public class ProductServiceImpl implements ProductService {
             throw new RuntimeException("Tên ProductCD đa tồn tại!");
         }
 
-
         ProductType productTypeCd = productTypeRepository.findByProductTypeCd(productRequestDTO.getProductTypeCd());
         if (!productCd.isEmpty()) {
             throw new RuntimeException("Tên ProductTypeCd chưa tồn tại!");
@@ -52,7 +50,7 @@ public class ProductServiceImpl implements ProductService {
         productNew = productRepository.save(productNew);
         ProductResponseDTO productResponseDTO = productMapper.toResponses(productNew);
 //        productResponseDTO.setProductTypeCd(productNew.getProductType().getProductTypeCd());
-        //   productResponseDTO.setProductType(null);
+//        productResponseDTO.setProductType(null);
         return productResponseDTO;
     }
 

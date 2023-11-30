@@ -27,7 +27,6 @@ public class AccountServiceImpl implements AccountService {
     @Override
     public List<AccountResponseDTO> findAccount(AccountRequestDTO accountRequestDTO) {
         List<AccountResponseDTO> accountResponseDTOS = accountRepositoryImpl.findCondition(accountRequestDTO);
-
         return accountResponseDTOS;
     }
 

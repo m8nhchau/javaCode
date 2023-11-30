@@ -48,8 +48,7 @@ public class Customer {
     List<Business> businesses;
 
     @ManyToMany
-    @JoinTable(
-            name = "customer_product",
+    @JoinTable(name = "customer_product",
             joinColumns = @JoinColumn(name = "customer_id"),
             inverseJoinColumns = @JoinColumn(name = "product_id")
     )
